@@ -1,0 +1,13 @@
+# Obsidian 配置文件夹（不同步）
+.obsidian/
+
+# 仓库其他文件（不同步）
+LICENSE
+README.md
+README of Github
+
+# 系统缓存文件
+.DS_Store
+*.tmp
+*.log
+*.swp
