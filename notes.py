@@ -17,12 +17,12 @@ def run_git_command(command, description, show_output=True):
             cwd=os.path.dirname(os.path.abspath(__file__))
         )
         print(f"✅ {description}成功！")
-        if show_output and result.stdout.strip():
+        if show_output and result.stdout and result.stdout.strip():
             print(f"   输出：{result.stdout.strip()}")
         return True
     except subprocess.CalledProcessError as e:
         print(f"❌ {description}失败！")
-        error_msg = e.stderr.strip()
+        error_msg = e.stderr.strip() if e.stderr else "未知错误"
         if error_msg:
             print(f"   错误信息：{error_msg}")
         return False
@@ -73,7 +73,7 @@ def main():
             cwd=script_dir
         )
 
-        if not status_result.stdout.strip():
+        if not (status_result.stdout and status_result.stdout.strip()):
             print("\nℹ️  本地没有检测到笔记修改！")
             print("\n💡 常见原因及解决方法：")
             print("   1. 新加入的文件夹是空的：Git 不追踪空文件夹，请在新文件夹里放一个文件（比如 .gitkeep）")
