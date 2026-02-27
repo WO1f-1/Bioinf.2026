@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "a29fc37d5c611aa5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb400558c28fba4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b0b326730c420b6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8c7898acd5c4c46",
+    "type": "split",
+    "children": [
+      {
+        "id": "edb5d3224e71ff8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fd4f12c99f020c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ccce7f7cbd75a6e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c90e7a4faaa573a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d4ea726c08cdf8c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "140a5fff35aaff3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "559a33044f57f0f3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Day1/Lesson_3.2 Python的基础语法II：.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Lesson_3.2 Python的基础语法II： 的反向链接列表"
+            }
+          },
+          {
+            "id": "88a2fbc67169d29a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Day1/Lesson_3.2 Python的基础语法II：.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Lesson_3.2 Python的基础语法II： 的出链列表"
+            }
+          },
+          {
+            "id": "134d6019ee5d4bc7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7e31f5c9376c326e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a1f6c9d0030bfdda",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Day1/Lesson_3.2 Python的基础语法II：.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Lesson_3.2 Python的基础语法II： 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "4fd4f12c99f020c7",
+  "lastOpenFiles": [
+    "obsidian-notes/Day1/Pic/QQ_1772091898902.png",
+    "obsidian-notes/Day1/Pic/QQ_1772091898902 1 1.png",
+    "obsidian-notes/Day1/Pic/QQ_1772091898902 2.png",
+    "obsidian-notes/Day1/Pic/QQ_1772091898902 1.png",
+    "obsidian-notes/Day1/Pic/c356eb91ea1e2c1f1886c5fa2b709a4b.png",
+    "obsidian-notes/Day1/Pic/b675bacd57df43d5880bf4e7e2ec7786.png",
+    "obsidian-notes/Day1/Pic/b1e3c577ab07c9161b81fb3e24783d1f.png",
+    "obsidian-notes/Day1/Pic/59aada3b1ad11f04b47a3933d6e72998.png",
+    "obsidian-notes/Day1/Pic",
+    "obsidian-notes/Day1/Lesson_4 PyCharm的配置：.md",
+    "obsidian-notes/Day1/Lesson_3.2 Python的基础语法II：.md",
+    "obsidian-notes/Day1/Lesson_3.1 Python的基础语法：.md",
+    "obsidian-notes/Day1/Lesson_2.2 Python 的安装与编程环境的搭建：.md",
+    "obsidian-notes/Day1/Lesson_2.1 操作系统与Python语言的简单介绍：.md",
+    "obsidian-notes/Day1/Lesson_1 课程介绍：.md",
+    "obsidian-notes/Day1",
+    "Day1/Lesson_3.1 Python的基础语法：.md",
+    "Day1/Lesson_2.2 Python 的安装与编程环境的搭建：.md",
+    "Day1/Lesson_2.1 操作系统与Python语言的简单介绍：.md",
+    "Day1/Lesson_3.2 Python的基础语法II：.md",
+    "Day1/Lesson_4 PyCharm的配置：.md",
+    "README of Github.md",
+    "README of Github"
+  ]
+}
